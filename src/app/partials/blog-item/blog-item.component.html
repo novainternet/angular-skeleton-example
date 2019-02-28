@@ -1,0 +1,18 @@
+<div class="blog-element">
+    <div class="single-blog-container" *ngIf="showPost" [@gamesSkeletonAnimation]>
+      <a href="/blog/deprecated-while-each-php7-2-x" title="Deprecated while each() PHP7.2.x" alt="Deprecated while each() PHP7.2.x">
+        <div class="blog-image">
+            <img src="http://blog.novainternet.es/wp-content/uploads/2019/01/programar.jpg">
+        </div>
+        <div class="blog-title">
+            <h2>Deprecated while each() PHP7.2.x</h2>
+        </div>
+        <div class="blog-text">
+            Para solucionar el error Deprecated list() = each() dentro de un while , en la versión PHP7.2.x, podemos usar varias soluciones : 1. Sin $value : Código deprecated : while (list($key, ) = each($array)) {{'{'}} Código modificado: foreach(array_keys($array) as $key) {{'{'}} &nbsp; 2. Con $value y $key: Código deprecated : while (list($key, $value) = each($array)) …
+        </div>
+        <div class="blog-date">
+            <span>18 Diciembre. 2018</span>
+        </div>
+      </a>
+    </div>
+</div>
